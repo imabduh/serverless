@@ -6,8 +6,6 @@ app.get("/", (req, res) => {
   res.json({ response: "test" });
 });
 
-app.listen(() => {
-  console.log("mabduh");
-});
+console.log("mabduh");
 
 module.exports = express;
